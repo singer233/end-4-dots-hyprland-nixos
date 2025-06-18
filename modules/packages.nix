@@ -15,7 +15,6 @@ in
       libdbusmenu-gtk3
       playerctl
 
-
       # # BACK LIGNT#
       brightnessctl
       ddcutil
@@ -82,7 +81,7 @@ in
 
       # # PYTHON #
       #   # clang
-        uv
+      # uv
       #   gtk4
       #   libadwaita
       libsoup_3
