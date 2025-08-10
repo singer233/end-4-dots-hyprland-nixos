@@ -8,7 +8,7 @@
     anyrun.inputs.nixpkgs.follows = "nixpkgs";
 
     quickshell = {
-      url = "git+https://git.outfoxxed.me/outfoxxed/quickshell?ref=v0.1.0";
+      url = "git+https://git.outfoxxed.me/outfoxxed/quickshell?ref=v0.2.0";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
@@ -27,7 +27,7 @@
     };
 
     illogical-impulse-dotfiles = {
-      url = "github:xBLACKICEx/dots-hyprland";
+      url = "github:xBLACKICEx/dots-hyprland?ref=tmp";
       flake = false;
     };
   };
