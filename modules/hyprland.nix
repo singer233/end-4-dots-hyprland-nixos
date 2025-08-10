@@ -21,6 +21,8 @@ in
       portalPackage = hypr-xdg;
 
       settings = {
+        "$qsConfig" = "ii";
+
         env = [
           "GIO_EXTRA_MODULES, ${pkgs.gvfs}/lib/gio/modules:$GIO_EXTRA_MODULES"
         ] ++ (lib.optionals hyprlandConf.ozoneWayland.enable [
@@ -30,9 +32,7 @@ in
           "hyprctl dispatch submap global" # DO NOT REMOVE THIS OR YOU WON'T BE ABLE TO USE ANY KEYBIND
         ];
         submap = "global"; # This is required for catchall to work
-
         debug.disable_logs = false;
-
         monitor = hyprlandConf.monitor;
       };
 
