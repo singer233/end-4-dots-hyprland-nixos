@@ -25,7 +25,6 @@ in
     };
 
     dotfiles = {
-      anyrun.enable = mkEnableOption "Enable illogical-impulse anyrun";
       kitty.enable = mkEnableOption "Enable illogical-impulse kitty";
       fish.enable = mkEnableOption "Enable illogical-impulse fish";
       starship.enable = mkEnableOption "Enable illogical-impulse starship";

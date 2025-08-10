@@ -36,7 +36,6 @@ illogical-impulse = {
 
     # Dotfiles configurations
     dotfiles = {
-        anyrun.enable = true;
         fish.enable = true;
         kitty.enable = true;
     };
