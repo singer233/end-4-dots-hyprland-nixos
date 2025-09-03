@@ -123,7 +123,6 @@ in
     services.gammastep.enable = true;
     services.gammastep.provider = "geoclue2";
     services.network-manager-applet.enable = true;
-    services.upower.enable = true;
   };
   # home.packages = with pkgs; [
 
