@@ -88,7 +88,6 @@ in
 
     xdg.configFile."hypr/hyprlock".source =                 "${illogical-impulse-dotfiles}/.config/hypr/hyprlock";
     xdg.configFile."hypr/shaders".source =                  "${illogical-impulse-dotfiles}/.config/hypr/shaders";
-    xdg.configFile."hypr/custom".source =                   "${illogical-impulse-dotfiles}/.config/hypr/custom";
 
   };
 }
