@@ -24,7 +24,7 @@
     };
 
     illogical-impulse-dotfiles = {
-      url = "github:xBLACKICEx/dots-hyprland?ref=tmp";
+      url = "github:singer233/dots-hyprland";
       flake = false;
     };
   };
