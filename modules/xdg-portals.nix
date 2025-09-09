@@ -1,6 +1,7 @@
 illogical-impulse-dotfiles: inputs: { config, lib, pkgs, ... }:
 let
   enabled = config.illogical-impulse.enable;
+  hypr-xdg = config.illogical-impulse.hyprland.xdgPortalPackage;
 in
 {
   config = lib.mkIf enabled {
@@ -8,7 +9,7 @@ in
     enable = true;
 
     extraPortals = [
-      pkgs.xdg-desktop-portal-hyprland
+      hypr-xdg
       pkgs.kdePackages.xdg-desktop-portal-kde
       pkgs.xdg-desktop-portal-gtk
     ];
