@@ -67,6 +67,7 @@ in
       # xdg-desktop-portal-kde # in config 
       # networkmanager # normal handel with nixos services
       kdePackages.plasma-nm
+      kdePackages.plasma-workspace  # for plasma-apply-color-scheme
       kdePackages.polkit-kde-agent-1
       kdePackages.dolphin
       kdePackages.breeze
